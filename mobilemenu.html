@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mobile Menu design</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+    <div id="accordion">
+          <h3>Profile</h3>
+          <div style="background-color:#e6ccb2">
+             <ul>
+               <li style="background-color:rgb(0, 204, 102);padding:0.9em;width:50px;border-radius:5px;">Name.</li>
+               <br>
+               <li style="background-color:rgb(0, 204, 102);padding:0.9em;width:50px;border-radius:5px;">Number.</li>
+               <br>
+               <li style="background-color:rgb(0, 204, 102);padding:0.9em;width:50px;border-radius:5px;">Address.</li>
+             </ul>
+          </div>
+          <h3>Message</h3>
+          <div style="background-color:#e6ccb2">
+             <ul>
+               <li style="background-color:rgb(0, 204, 102);padding:0.9em;width:50px;border-radius:5px;">
+                 Inbox.</li>
+               <br>
+               <li style="background-color:rgb(0, 204, 102);padding:0.9em;width:50px;border-radius:5px;">Sent.</li>
+               <br>
+               <li style="background-color:rgb(0, 204, 102);padding:0.9em;width:50px;border-radius:5px;">Draft.</li>
+             </ul>
+          </div>
+         <h3>Settings</h3>
+          <div style="background-color:#e6ccb2">
+             <ul>
+               <li style="background-color:rgb(0, 204, 102);padding:0.9em;width:50px;border-radius:5px;">
+                 Wifi.</li>
+               <br>
+               <li style="background-color:rgb(0, 204, 102);padding:0.9em;width:50px;border-radius:5px;">Theme.</li>
+               <br>
+               <li style="background-color:rgb(0, 204, 102);padding:0.9em;width:50px;border-radius:5px;">Camera.</li>
+             </ul>
+          </div>
+   </div>
+  <script>
+      $(document).ready(function(){
+        $("#accordion").accordion();
+      });
+  </script>
+</body>
+</html>
